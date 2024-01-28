@@ -1,0 +1,3 @@
+node_modules/
+blog/src/pages/register/Register.jsx
+.env

@@ -1,0 +1,70 @@
+.singlePostWrapper {
+  width: 80vw;
+  margin-left: 10%;
+}
+
+.singlePostContainer {
+  display: flex;
+  flex-direction: flex-start;
+}
+.postContent {
+  flex: 10;
+}
+
+.singlePostImg {
+  width: 100%;
+  /* margin-left: 10%; */
+  height: 300px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-size: 28px;
+  font-family: 'Lora', sans-serif;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+
+.editIcon,
+.deleteIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.editIcon {
+  color: teal;
+}
+.deleteIcon {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #be9656;
+  font-family: 'Varela Round', Arial, Helvetica, sans-serif;
+}
+
+.singlePostAuthor {
+  margin-left: 5px;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}

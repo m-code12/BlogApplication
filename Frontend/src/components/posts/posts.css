@@ -1,0 +1,15 @@
+.posts {
+  flex: 9;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  justify-content: center;
+}
+.noPosts {
+  flex: 9;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
